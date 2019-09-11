@@ -23,7 +23,7 @@ after_success:
   - docker push aidasb/multi-worker
 
 deploy:
-  provider: elasticbeantalk
+  provider: elasticbeanstalk
   region: us-east-2
   app: multi-docker
   env: MultiDocker-env
